@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Family Portal</title>
+</head>
+<body>
+  <h2>Admin Panel</h2>
+  <button id="logoutBtn">Logout</button>
+
+  <h3>Add Event</h3>
+  <form id="eventForm">
+    <input type="text" id="eventTitle" placeholder="Event Title" required>
+    <input type="date" id="eventDate" required>
+    <textarea id="eventDesc" placeholder="Description"></textarea>
+    <button type="submit">Add Event</button>
+  </form>
+
+  <h3>Add News</h3>
+  <form id="newsForm">
+    <input type="text" id="newsTitle" placeholder="News Title" required>
+    <textarea id="newsContent" placeholder="Content"></textarea>
+    <button type="submit">Add News</button>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

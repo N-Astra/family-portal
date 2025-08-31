@@ -1,0 +1,10 @@
+<!-- assets/css/styles.css -->
+:root { --brand: #2a6f97; }
+.navbar-brand { font-weight: 700; }
+.avatar {
+  width: 56px; height: 56px; border-radius: 50%;
+  object-fit: cover; background: #eee;
+}
+.tree-node { cursor: pointer; }
+.tree-children { margin-left: 1rem; border-left: 2px dotted #ddd; padding-left: .75rem; }
+.badge-relationship { background: #eef; color: #224; }
