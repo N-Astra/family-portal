@@ -14,12 +14,13 @@ import {
 
 // Replace with your Firebase config from console
 const firebaseConfig = {
-  apiKey: "YOUR_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyBRtcPlCS7bvILNPNysSDHKbM0zp4patSY",
+  authDomain: "valiyaparambil.firebaseapp.com",
+  projectId: "valiyaparambil",
+  storageBucket: "valiyaparambil.firebasestorage.app",
+  messagingSenderId: "157607413961",
+  appId: "1:157607413961:web:575e3d477099ce49f82518",
+  measurementId: "G-1HF77ZZS4E"
 };
 
 const app = initializeApp(firebaseConfig);
